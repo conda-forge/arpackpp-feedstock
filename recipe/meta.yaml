@@ -1,4 +1,4 @@
-{% set version = "2.3.0" %}
+{% set version = "2.4.0" %}
 
 package:
   name: arpackpp
@@ -7,7 +7,7 @@ package:
 source:
   fn: arpackpp-{{ version }}.tar.gz
   url: https://github.com/m-reuter/arpackpp/archive/{{ version }}.tar.gz
-  sha256: 288fb4cd2dd08e02ed29db579bc1278023a06415dd2f63b1fdc323c7993fcb1a
+  sha256: 06416ee584d01eba42555b676a4220f68575ef715cde9b37e85910698d784ca0
 
 build:
   number: 0
